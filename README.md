@@ -21,8 +21,11 @@ $pip install mechanize requests bs4 futures
 
 $pip install colorama
 
-$git clone https://github.com/BladeKnife/mbf
+$git clone https://github.com/hilman-maulana72/mmbf
 
-$cd mbf
+$cd mmbf
 
-$python fb.py
+$python mmbf.py
+
+#Contac me
+Facebook(https://facebook.com/xxx.hilmanxd)
