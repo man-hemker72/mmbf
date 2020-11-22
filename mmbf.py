@@ -54,7 +54,7 @@ def masuk():
     else:
         print('\033[00mCookies \033[91mInvalid\033[00m')
         time.sleep(1)
-        os.system('python fb.py')
+        os.system('python mmbf.py')
 def nid():
     r=ses.get(mbasic.format('/me'),cookies=kukis).text
     name=re.findall(r'<title>(.*?)</title>',r)[0]
@@ -219,7 +219,6 @@ def pilih_menu():
                          str(x) + '1234',
                          str(x) + '12345',
                          str(x) + '123456'
-                         str(x) + '62895'
                          ]
                     litpas.append('Sayang')
                     litpas.append('Bangsat')
